@@ -96,6 +96,14 @@ if __name__ == '__main__':
             elif 'open gmail' in query:
                 speak('okay')
                 webbrowser.open('www.gmail.com')
+                
+            elif 'open github' in query:
+                speak('okay')
+                webbrowser.open('www.github.com')
+                
+            elif 'open stackoverflow' in query:
+                speak('okay')
+                webbrower.open('www.stackoverflow.com')
 
             elif "what\'s up" in query or 'how are you' in query:
                 stMsgs = ['Just doing my thing!', 'I am fine!', 'Nice!', 'I am nice and full of energy']
